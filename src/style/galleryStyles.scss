@@ -1,0 +1,8 @@
+.featuredImagesContainer {
+    display: grid;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(3, 225px);
+    grid-template-rows: repeat(3, 225px);
+}
