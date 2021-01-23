@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ImgModal from "./imgModal";
+import ImgModal from "../imgModal";
 
-import Twimage from '../../static/images/bella-edward-trees-jan-21-code.png';
+import Twimage from '../../../static/images/bella-edward-trees-jan-21-code.png';
 
 const featuredImagesData = [
     {id: 1, title: "In the Trees", date: "Jan 18 2021", path: Twimage},

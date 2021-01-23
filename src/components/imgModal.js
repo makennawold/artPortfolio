@@ -24,7 +24,7 @@ export default function ImgModal(props) {
    
     return (
         <div>
-            <Button onClick={handleVisible}    className="imgModalButton">
+            <Button onClick={handleVisible} className="imgModalButton">
                 <img src={props.path} className="modalButtonImage"/>
             </Button>
             <Modal show={visibility} onHide={handleInvisible} dialogClassName="imageModal" backdrop={true}>
